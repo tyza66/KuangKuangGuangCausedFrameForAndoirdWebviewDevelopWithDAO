@@ -9,7 +9,7 @@
 - 会申请联网权限，可以访问或插入网络资源
 - 可导入任何视窗js，框架js(v1.0.0资源文件里面有jQuery，vue，ElementUI，Layer)
 - 如果你是小白，完全不懂Android原生开发,但有一定前端基础，也可以使用本框架进行开发安卓项目
-- 仅仅需要编辑AndroidManifes改变屏幕朝向，并在app/main/home.html中进行你的前端开发(最好是响应式的),之后使用Android Studio进行应用调试或打包即可
+- 仅仅需要编辑AndroidManifes改变屏幕朝向，并在app/src/main/assets/home.html中进行你的前端开发(最好是响应式的),之后使用Android Studio进行应用调试或打包即可
 - Enjoy it!
 
 ### 版本更新
