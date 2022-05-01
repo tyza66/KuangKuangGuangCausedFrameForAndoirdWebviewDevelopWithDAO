@@ -30,7 +30,7 @@ public class LocalJavaForJs {
         while(cursor.moveToNext()){
             String id = cursor.getString(0);
             String title = cursor.getString(1);
-            webView.loadUrl("javascript:app.appendFolder('"+ id +"','"+ title +"')");
+            //webView.loadUrl("javascript:app.appendFolder('"+ id +"','"+ title +"')");
         }
         cursor.close();
     }
