@@ -35,5 +35,6 @@ public class MainActivity extends AppCompatActivity {
         SQLiteDatabase db = sqLiteHelper.getWritableDatabase();
         //js与原生Android交互
         webView.setWebViewClient(new MyWebViewClient(this,webView,db));
+        webView.addJavascriptInterface(new LocalJavaForJs(this,webView,db),"tyza66");
     }
 }

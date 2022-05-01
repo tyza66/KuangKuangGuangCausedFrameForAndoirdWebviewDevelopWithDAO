@@ -17,7 +17,7 @@ public class MyWebViewClient extends WebViewClient {
 
     @Override
     public void onPageFinished(WebView webView, String url) {
-        webView.addJavascriptInterface(new LocalJavaForJs(context,webView,db),"tyza66");
+
     }
 
 }

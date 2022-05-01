@@ -16,7 +16,7 @@ public class LocalJavaForJs {
        this.context =  context;
        this.db = db;
        this.webView = webView;
-       pullFloder();
+       //pullFloder();
     }
 
     @JavascriptInterface
